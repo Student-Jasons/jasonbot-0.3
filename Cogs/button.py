@@ -23,6 +23,4 @@ class button(commands.Cog):
 
 async def setup(bot: commands.Bot) -> None:
     await bot.add_cog(
-        button(bot),
-        guilds=[Object(id=1080789358115823637)]
-    )
+        button(bot))

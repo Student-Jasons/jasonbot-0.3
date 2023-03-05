@@ -51,6 +51,4 @@ class select(commands.Cog):
 
 async def setup(bot: commands.Bot) -> None:
     await bot.add_cog(
-        select(bot),
-        guilds=[Object(id=1080789358115823637)]
-    )
+        select(bot))
